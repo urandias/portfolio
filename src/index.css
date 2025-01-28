@@ -1,7 +1,7 @@
 
 body {
   color: rgb(0, 0, 0);
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
   margin: 0;
   padding: 0;
 }
@@ -16,7 +16,8 @@ body {
 .profilePic {
   width: 200px;
   height: 200px;
-  border-radius: 100%; 
+  border-radius: 100%;
+  margin-top: 10px 
 }
 
 .text {

@@ -30,7 +30,7 @@ function VantaBackground({ children }) {
   }, []);
 
   return (
-    <div ref={vantaRef} style={{ height: '40vh', width: '100%' }}>
+    <div ref={vantaRef} style={{ height: '34vh', width: '100%' }}>
       <div style={{ position: 'relative', zIndex: 1 }}>
         {children}
       </div>
