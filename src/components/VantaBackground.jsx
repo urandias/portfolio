@@ -20,7 +20,7 @@ function VantaBackground({ children }) {
       cloudShadowColor: 0x7299d4,
       sunColor: 0xf1f1f1,
       sunGlareColor: 0xe5e3d7,
-      sunlightColor: 0xf1f1f1, 
+      sunlightColor: 0xf1f1f1,
       speed: 0.8
     });
 
@@ -30,7 +30,7 @@ function VantaBackground({ children }) {
   }, []);
 
   return (
-    <div ref={vantaRef} style={{ height: '34vh', width: '100%' }}>
+    <div ref={vantaRef} className="vantaBackground">
       <div style={{ position: 'relative', zIndex: 1 }}>
         {children}
       </div>

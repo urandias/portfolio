@@ -3,13 +3,14 @@ import Uran from './components/Uran'
 import VantaBackground from './components/VantaBackground'
 
 function App() {
-
   return (
     <>
       <VantaBackground>
-        <Uran/>
+        <Uran />
       </VantaBackground>
-      <Experience/>
+      <div className="ExperienceContainer">
+        <Experience />
+      </div>
     </>
   )
 }
