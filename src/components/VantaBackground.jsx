@@ -14,13 +14,13 @@ function VantaBackground({ children }) {
       gyroControls: false,
       minHeight: 200.0,
       minWidth: 200.0,
-      // backgroundColor: 0xffffff,
-      // skyColor: 0x68b8d7,
-      // cloudColor: 0xadc1de,
-      // cloudShadowColor: 0x183550,
-      // sunColor: 0xff9919,
-      // sunGlareColor: 0xff6633,
-      // sunlightColor: 0xff9933, 
+      backgroundColor: 0x90b4e8,
+      skyColor: 0x90b4e8,
+      cloudColor: 0xd7e1eb,
+      cloudShadowColor: 0x7299d4,
+      sunColor: 0xf1f1f1,
+      sunGlareColor: 0xe5e3d7,
+      sunlightColor: 0xf1f1f1, 
       speed: 0.8
     });
 
